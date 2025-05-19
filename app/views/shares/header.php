@@ -18,12 +18,16 @@ navigation">
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav">
 <li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/Product/">Danh sách sản 
-phẩm</a>
+<a class="nav-link" href="/PROJECTBANHANG/Product/">Danh sách sản phẩm</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/Product/add">Thêm sản 
-phẩm</a>
+<a class="nav-link" href="/PROJECTBANHANG/Product/add">Thêm sản phẩm</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/PROJECTBANHANG/category/">Danh sách loại</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/PROJECTBANHANG/category/add">Thêm loại sản phẩm</a>
 </li>
 </ul>
 </div>
