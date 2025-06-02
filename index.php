@@ -1,5 +1,7 @@
 <?php
-require_once 'app/models/ProductModel.php'; 
+session_start();
+require_once 'app/models/ProductModel.php';
+// Product/add
 $url = $_GET['url'] ?? '';
 $url = rtrim($url, '/');
 $url = filter_var($url, FILTER_SANITIZE_URL);

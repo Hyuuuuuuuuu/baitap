@@ -18,18 +18,26 @@ navigation">
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav">
 <li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/Product/">Danh sách sản phẩm</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/Product/add">Thêm sản phẩm</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/category/">Danh sách loại</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/PROJECTBANHANG/category/add">Thêm loại sản phẩm</a>
-</li>
-</ul>
+<ul class="navbar-nav ml-auto"> <!-- thêm ml-auto để đẩy giỏ hàng sang phải -->
+    <li class="nav-item">
+        <a class="nav-link" href="/PROJECTBANHANG/Product/">Danh sách sản phẩm</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/PROJECTBANHANG/Product/add">Thêm sản phẩm</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/PROJECTBANHANG/category/">Danh sách loại</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/PROJECTBANHANG/category/add">Thêm loại sản phẩm</a>
+    </li>
+    <!-- Nút giỏ hàng -->
+    <li class="nav-item">
+        <a class="nav-link btn btn-outline-success ml-lg-3" href="/PROJECTBANHANG/product/cart">
+            🛒 Giỏ hàng
+        </a>
+    </li>
+</u>
 </div>
 </nav>
 <div class="container mt-4">
