@@ -36,3 +36,22 @@ phẩm</a></li>
 <!-- Font Awesome Icons -->
 <script src="https://kit.fontawesome.com/a076d05399.js"
 crossorigin="anonymous"></script>
+
+    </div> <!-- Đóng container từ header -->
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script>
+        // Xác nhận xóa
+        document.querySelectorAll('.delete-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                if (!confirm('Bạn có chắc chắn muốn xóa?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
