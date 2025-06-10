@@ -51,8 +51,7 @@ $category_id = $_POST['category_id'] ?? null;
 $image = (isset($_FILES['image']) && $_FILES['image']['error'] == 0) 
 ? $this->uploadImage($_FILES['image']) 
 : "";
-$result = $this->productModel->addProduct($name, $description, $price, 
-$category_id, $image);
+$result = $this->productModel->addProduct($name, $description, $price, $category_id, $image);
 if (is_array($result)) {
 $errors = $result;
 $categories = (new CategoryModel($this->db))->getCategories();
